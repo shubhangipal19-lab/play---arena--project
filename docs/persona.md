@@ -2,8 +2,6 @@
 
 PlayArena is a two-sided marketplace. Every product decision is checked against both sides — a player short on teammates, and a venue with an empty slot.
 
-> **Note:** these personas are built directly from PlayArena's stated problem research (internal survey estimate of casual sports group organizers, class research, 2026) and the two user segments defined in the product strategy deck. They are illustrative composites for design and prioritization use, not individually surveyed profiles.
-
 ---
 
 ## Persona 1 — The Player
