@@ -44,11 +44,3 @@ Relay is not limited to booking events. Any time an agent produces output that a
 - When the **Brand Creator** finishes a caption, campaign, or promotional copy, Relay routes it to the intended channel (e.g., queued for posting, sent to a reviewer, or delivered to the requester).
 - If the **Brief Goal Checker** rejects an idea, Relay is what closes the loop — notifying whoever proposed it, with the checker's reasoning, instead of the idea silently going nowhere.
 
-## Build notes (n8n)
-
-When implementing this in n8n, Relay is modeled as the central workflow that:
-1. Receives a **trigger node** (booking event, agent output, or manual test trigger).
-2. Uses **routing logic** (IF/Switch nodes) to decide which downstream agent or notification channel the event belongs to.
-3. Fans out to one or more **action nodes** (send notification, call another agent's workflow, update a record).
-
-See [`setup.md`](./setup.md) for how to import or rebuild this workflow in n8n, and [`demo-result.md`](./demo-result.md) for a template to log an actual run.
